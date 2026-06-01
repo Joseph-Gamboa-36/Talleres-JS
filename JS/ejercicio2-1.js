@@ -1,7 +1,7 @@
 // 1. Declara tus datos personales
 const nombre = "Joseph";
 const apellido = "Gamboa";
-const edad = 18;
+const edad = 17;
 const ciudad = "Cúcuta";
 let estudiante = true;
 
