@@ -1,4 +1,4 @@
-let nota = 99;
+let nota = parseInt(prompt("Ingresa una nota"));
 let Aprobado;
 if (nota >= 0&& nota <=69) {
     Aprobado = "No Aprobado";
