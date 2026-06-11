@@ -6,6 +6,6 @@ if (retiro > saldo) {
   console.log("Monto Inválido");
 } else if (retiro % 10000 == 0) {
   saldo = saldo - retiro;
-  console.log("Retiro Exitoso");
-  console.log("Nuevos saldo: $" + saldo);
+  console.log("Retiro exitoso");
+  console.log(`El nuevo saldo es: ${saldo}`);
 } else (console.log("Solo se permiten retiros múltiplos de 10.000"))
