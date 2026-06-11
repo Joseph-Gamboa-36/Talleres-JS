@@ -1,13 +1,10 @@
 let saldo = 1000000;
-let retiro = 700000;
-let monto;
+let retiro = 100000;
 if (retiro > saldo) {
-  monto = "Fondos insuficientes";
-  console.log(monto);
+  console.log("Fondos insuficientes");
 } else if (retiro <= 0) {
-  monto = "Monto Inválido";
-  console.log(monto);
-} else if (retiro % 10000 === 0) {
+  console.log("Monto Inválido");
+} else if (retiro % 10000 == 0) {
   saldo = saldo - retiro;
   console.log("Retiro Exitoso");
   console.log("Nuevos saldo: $" + saldo);
